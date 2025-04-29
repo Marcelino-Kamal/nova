@@ -29,20 +29,22 @@ public class ChatController {
             chatArea.appendText(botResponse + "\n");
             userInput.clear();
         }
+     
     }
     @FXML
     private void toggleTheme(){
         Scene scene = chatArea.getScene();
         if (scene != null) {
             if(darkMode){
-                scene.getStylesheets().add(getClass().getResource("/css/light.css").toExternalForm());
+                scene.getStylesheets().remove(getClass().getResource("/css/dark.css").toExternalForm());
+               
             }else{
                 scene.getStylesheets().add(getClass().getResource("/css/dark.css").toExternalForm());
+                
             }
-            darkMode = !darkMode;
+            darkMode = !darkMode;  
         }
-
-
-
     }
+     
+
 }
