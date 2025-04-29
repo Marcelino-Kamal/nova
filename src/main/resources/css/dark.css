@@ -7,3 +7,9 @@
     -fx-control-inner-background: #2d2d2d;
     -fx-text-fill: white;
 }
+.button{
+
+    -fx-background-color: black;
+    -fx-text-fill:white;
+
+}
