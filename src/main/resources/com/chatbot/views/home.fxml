@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.stage.Stage?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="com.chatbot.Controller.ChatController">
+    <TextArea fx:id="chatArea" editable="false" wrapText="true" prefHeight="400" prefWidth="600"/>
+    <HBox spacing="10">
+        <TextField fx:id="userInput" promptText="Type your message..." prefWidth="500"/>
+        <Button text="Send" onAction="#handleUserInput"/>
+    </HBox>
+</VBox>
