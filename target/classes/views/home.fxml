@@ -8,5 +8,6 @@
     <HBox spacing="10">
         <TextField fx:id="userInput" promptText="Type your message..." prefWidth="500"/>
         <Button text="Send" onAction="#handleUserInput"/>
+        <Button text="Toggle" onAction="#toggleTheme"/>
     </HBox>
 </VBox>

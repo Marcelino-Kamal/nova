@@ -1,4 +1,4 @@
-com\chatbot\App.class
 com\chatbot\Models\Chatbot.class
 module-info.class
 com\chatbot\Controller\ChatController.class
+com\chatbot\App.class
